@@ -6,12 +6,13 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 
 
 
-##Elección de Clases
+## Elección de Clases
 
 ####  Paciente
 
-**Funcionamiento: **Representa a los individuos que reciben atención médica. Contiene información personal y sirve como punto central para la asociación de datos médicos.
-**Justificación: **La clase Paciente es fundamental, ya que establece la identidad única de cada individuo y sirve como ancla para la información médica relacionada.
+*Funcionamiento: *Representa a los individuos que reciben atención médica. Contiene información personal y sirve como punto central para la asociación de datos médicos.
+
+*Justificación: *La clase Paciente es fundamental, ya que establece la identidad única de cada individuo y sirve como ancla para la información médica relacionada.
 
 ------------
 
