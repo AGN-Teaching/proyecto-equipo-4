@@ -172,6 +172,7 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 +buscar_cirugia(sintomas_paciente: List[str]): Union[str, List[Tuple[str, str]]] (Busca cirugías según los síntomas proporcionados)
 
 #### Clase EstudioMedico
+![WhatsApp Image 2023-10-15 at 11 26 30 PM (2)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/49242ce0-dc9c-49ae-b2f3-1dd0544642fb)
 
 ##### Atributos:
 
