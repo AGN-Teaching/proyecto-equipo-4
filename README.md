@@ -18,30 +18,35 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 
 #### Médico
 *Funcionamiento:* Representa a los profesionales de la salud que atienden a los pacientes. Asocia médicos con  especialidades.
+
 *Justificación:* Facilita la gestión de los recursos médicos al asignar eficientemente pacientes según especialidades.
 
 ------------
 #### Medicamento
 
 *Funcionamiento:* Almacena información sobre los medicamentos utilizados en tratamientos. Asociado a recetas.
+
 *Justificación:* Necesario para detallar tratamientos recetados, proporcionando información esencial sobre medicamentos y dosis.
 
 ------------
 #### Especialidad
 
 *Funcionamiento:* Organiza y categoriza las diferentes áreas médicas de especialización.
+
 *Justificación:* Permite la clasificación de médicos según sus habilidades y facilita la asignación de pacientes a profesionales con conocimientos específicos.
 
 ------------
 
 #### Expediente Clínico
 *Funcionamiento:* Relaciona y organiza la información médica de un paciente, sus consultas y recetas asociadas.
+
 *Justificación:* Actúa como núcleo central del sistema, proporcionando una estructura que integra y relaciona todos los aspectos médicos de un paciente.
 
 ------------
 
 #### Historial Médico
 *Funcionamiento:* Almacena el historial médico de un paciente, incluyendo alergias y enfermedades crónicas.
+
 *Justificación:* Ofrece una visión completa de la salud del paciente, facilitando diagnósticos y tratamientos precisos.
 
 ------------
@@ -49,6 +54,7 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 #### Historial Vacunas
 
 *Funcionamiento:* Almacena el historial de vacunas de un paciente.
+
 *Justificación: *  Contribuye a la gestión preventiva de la salud, registrando fechas y tipos de vacunas aplicadas.
 
 
@@ -56,6 +62,7 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 
 #### Receta Médica
 *Funcionamiento:* Asocia medicamentos y dosis a un paciente y una consulta médica específica.
+
 *Justificación:* Permite la prescripción y seguimiento de tratamientos médicos, conectando médicos, pacientes y medicamentos.
 
 ------------
@@ -63,6 +70,7 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 #### Historial Vacunas
 
 *Funcionamiento:* Almacena el historial de vacunas de un paciente.
+
 *Justificación:* Contribuye a la gestión preventiva de la salud, registrando fechas y tipos de vacunas aplicadas.
 
 ------------
@@ -70,12 +78,14 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 #### Estudio Médico
 
 *Funcionamiento:* Representa análisis y estudios médicos específicos realizados a un paciente.
+
 *Justificación:* Permite el registro  de procedimientos médicos, contribuyendo a evaluaciones y diagnósticos precisos.
 
 ------------
 
 #### Cirugía
 *Funcionamiento:* Registra información relacionada con intervenciones quirúrgicas realizadas a un paciente.
+
 *Justificación:* Permite el seguimiento de procedimientos quirúrgicos, integrando información vital en el expediente clínico.
 
 ------------
@@ -83,6 +93,7 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 
 #### Clinica
 *Funcionamiento:* Representa la entidad principal que engloba todas las operaciones y gestión de recursos médicos. Controla la interacción entre pacientes, médicos y datos médicos.
+
 *Justificación:* La clase Clinica actúa como el punto central del sistema, coordinando las operaciones de consulta, registro de pacientes, asignación de médicos y almacenamiento de datos médicos.
 
 ------------
