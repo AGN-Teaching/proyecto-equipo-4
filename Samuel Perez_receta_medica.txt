@@ -1,0 +1,23 @@
+
+
+RECETA MEDICA
+
+Clínica: Hospital ABC    Fecha: 2023-10-15
+
+Medico general: Rafael Lopez Gatel
+
+Paciente: Samuel Perez     Edad: 20
+Peso: 75 kg
+Talla: 1.80 mts
+Alergias: Ninguna
+-----------------------------------------------
+
+Medicamentos recetados:
+Nombre: Aspirina
+Síntomas: Dolor de cabeza, fiebre, dolor leve
+Dosis: Dosis: 1 tableta cada 4-6 horas
+------------------------------
+Nombre: Paracetamol
+Síntomas: Dolor de cabeza, fiebre, dolor leve
+Dosis: Dosis: 1-2 tabletas cada 4-6 horas
+------------------------------

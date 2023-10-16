@@ -1,0 +1,68 @@
+
+
+RECETA MEDICA
+
+Clínica: Hospital ABC    Fecha: 2023-10-15
+
+Medico general: Rafael Lopez Gatel
+
+Paciente: Emilio Escarraga     Edad: 28
+Peso: 75 kg
+Talla: 1.85 mts
+Alergias:  Nueces
+-----------------------------------------------
+
+Medicamentos recetados:
+Nombre: Aspirina
+Síntomas: Dolor de cabeza, fiebre, dolor leve
+Dosis: Dosis: 1 tableta cada 4-6 horas
+------------------------------
+Nombre: Paracetamol
+Síntomas: Dolor de cabeza, fiebre, dolor leve
+Dosis: Dosis: 1-2 tabletas cada 4-6 horas
+------------------------------
+Nombre: Ibuprofeno
+Síntomas: Dolor, inflamación, fiebre
+Dosis: Dosis: 1-2 tabletas cada 6-8 horas
+------------------------------
+Nombre: Tramadol
+Síntomas: Dolor moderado a severo, dolor crónico
+Dosis: Dosis: Varies según indicación médica
+------------------------------
+Nombre: Gabapentina
+Síntomas: Epilepsia, neuropatía, dolor neuropático
+Dosis: Dosis: Varies según indicación médica
+------------------------------
+Nombre: Naproxeno
+Síntomas: Dolor, inflamación, fiebre
+Dosis: Dosis: 1-2 tabletas cada 8-12 horas
+------------------------------
+Cirugías encontradas para los síntomas proporcionados por el paciente:
+Nombre: Cirugía de bypass coronario
+Síntomas: Dolor en el pecho o dolor en el brazo izquierdo
+------------------------------
+Estudios médicos encontrados para los síntomas proporcionados por el paciente:
+Nombre: Electrocardiografía (ECG o EKG)
+Síntomas: Dolor en el pecho
+------------------------------
+Nombre: Resonancia magnética (RM)
+Síntomas: Dolor de cabeza severo o persistente
+------------------------------
+Nombre: Tomografía computarizada (TC) cerebral
+Síntomas: Dolor de cabeza severo o persistente
+------------------------------
+Nombre: Radiografía de la columna vertebral
+Síntomas: Dolor de espalda intenso o persistente
+------------------------------
+Nombre: Resonancia magnética (RM) de la columna vertebral
+Síntomas: Dolor de espalda intenso o persistente
+------------------------------
+Nombre: Ecografía abdominal
+Síntomas: Dolor abdominal severo
+------------------------------
+Nombre: Tomografía computarizada (TC) abdominal
+Síntomas: Dolor abdominal severo
+------------------------------
+Nombre: Endoscopía
+Síntomas: Dolor abdominal severo
+------------------------------

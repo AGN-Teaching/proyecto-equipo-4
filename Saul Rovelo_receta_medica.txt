@@ -1,0 +1,24 @@
+
+
+RECETA MEDICA
+
+Clínica: Hospital ABC    Fecha: 2023-10-15
+
+Medico general: Rafael Lopez Gatel
+
+Paciente: Saul Rovelo     Edad: 21
+Peso: 60 kg
+Talla: 1.70 mts
+Alergias: Penicilina
+-----------------------------------------------
+Cirugías encontradas para los síntomas proporcionados por el paciente:
+Nombre: Cirugía de drenaje de absceso
+Síntomas: Fiebre alta persistente
+------------------------------
+Estudios médicos encontrados para los síntomas proporcionados por el paciente:
+Nombre: Hemograma completo
+Síntomas: Fiebre alta persistente
+------------------------------
+Nombre: Cultivos de sangre y orina
+Síntomas: Fiebre alta persistente
+------------------------------
