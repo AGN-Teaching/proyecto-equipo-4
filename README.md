@@ -269,53 +269,96 @@ Atributos:
 ##### Atributos :
 
 -expedientes_clinico: Lista de expedientes clínicos cargados.
+
 -medicos: Lista de médicos registrados en la clínica.
+
 -medicamento: Lista de medicamentos cargados.
+
 -especialidad: Lista de especialidades médicas cargadas.
+
 -especialidades: Instancia de la clase Especialidad.
+
 -lista_medicos: Instancia de la clase Medico para gestionar la lista de médicos.
+
 -medicamentos: Instancia de la clase Medicamento para gestionar la lista de medicamentos.
 
 ##### Métodos:
 
 
 +cargar_medicamentos(): Carga la lista de medicamentos desde el archivo "medicamentos.dat". 
+
 +cargar_especialidades(): Carga la lista de especialidades médicas desde el archivo "especialidades_medicas.dat". 
+
 +cargar_expedientes(): Carga la lista de expedientes clínicos desde los archivos *_expediente.dat en el directorio. 
+
 +cargar_medicos(): Carga la lista de médicos desde el archivo "medicos.dat". 
+
 +menu_principal(): Método principal para el menú principal de la aplicación. 
+
 +menu_administrador(): Menú para las opciones de administrador.  
+
 +eliminar_paciente(nombre): Elimina un paciente y su expediente clínico. 
+
 +eliminar_medico(): Elimina un médico de la lista de médicos. 
+
 +eliminar_medicamento(): Elimina un medicamento de la lista de medicamentos. 
-+eliminar_especialidad(): Elimina una especialidad de la lista de especialidades médicas. 
+
++eliminar_especialidad(): Elimina una especialidad de la lista de especialidades médicas.
+
 +agregar_especialidades(): Agrega una nueva especialidad a la lista. 
+
 +agregar_medicamento(): Agrega un nuevo medicamento a la lista. 
+
 +mostrar_medicamentos(): Muestra la lista de medicamentos. 
+
 +mostrar_medicos(): Muestra la lista de médicos. 
+
 +mostrar_especialidades(): Muestra la lista de especialidades médicas. 
+
 +consultar_expediente_administrador(): Consulta y muestra un expediente clínico desde el punto de vista del administrador. 
+
 +eliminar_paciente(nombre): Elimina el expediente clínico de un paciente según el nombre. 
+
 +eliminar_medico(): Elimina un médico de la lista y su archivo asociado. 
+
 +eliminar_medicamento(): Elimina un medicamento de la lista y su archivo asociado. 
+
 +eliminar_especialidad(): Elimina una especialidad de la lista y su archivo asociado. 
+
 +agregar_especialidades(): Agrega una nueva especialidad a la lista y guarda la información en el archivo. 
+
 +agregar_medicamento(): Agrega un nuevo medicamento a la lista y guarda la información en el archivo. 
+
 +mostrar_medicamentos(): Muestra la lista de medicamentos. 
+
 +mostrar_medicos(): Muestra la lista de médicos. 
+
 +mostrar_especialidades(): Muestra la lista de especialidades médicas. 
+
 +guardar_medicos_en_archivo(): Guarda la lista de médicos en el archivo "medicos.dat". 
-consultar_expediente_medico(): Consulta y muestra un expediente clínico desde el punto de vista del médico. 
+
+consultar_expediente_medico(): Consulta y muestra un expediente clínico desde el punto de vista del médico.
+
 +menu_medico(): Menú para las opciones del médico. 
+
 +registrarse_medico(): Registra a un nuevo médico. 
+
 +guardar_medicos_en_archivo(): Guarda la lista de médicos en el archivo "medicos.dat". 
+
 +consultar_expediente_medico(): Consulta y muestra un expediente clínico desde el punto de vista del médico. 
+
 +menu_paciente(): Menú para las opciones del paciente. 
+
 +cargar_expedientes_desde_archivos(): Carga los expedientes clínicos desde los archivos *_expediente.dat. 
-+guardar_expedientes_en_archivo(nombre_archivo): Guarda los expedientes clínicos en un archivo específico.  
+
++guardar_expedientes_en_archivo(nombre_archivo): Guarda los expedientes clínicos en un archivo específico. 
+
 +crear_expediente_clinico(): Crea un nuevo expediente clínico para un paciente. 
+
 +mostrar_pacientes(): Muestra la lista de pacientes registrados. 
+
 +consultar_expediente_paciente(paciente_encontrado): Consulta y muestra un expediente clínico desde el punto de vista del paciente. 
+
 +solicitar_consulta(paciente): Permite al paciente solicitar una consulta y genera una receta médica.
  
 ### Diagrama UML
