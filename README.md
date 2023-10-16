@@ -173,7 +173,8 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 
 #### Clase EstudioMedico
 
-Atributos:
+##### Atributos:
+
 -tipo_estudio: str
 
 ##### Métodos:
@@ -189,7 +190,9 @@ Atributos:
 ##### Atributos:
 
 +paciente: Paciente
+
 +historial_vacunas: HistorialVacunas
+
 +historial_medico: HistorialMedico
 
 #### Clase HistorialMedico
@@ -199,17 +202,25 @@ Atributos:
 ##### Atributos:
 
 -alergias: str
+
 -enfermedades_cronicas: str
+
 -procedimientos_quirurgicos: str
+
 -enfermedades_hereditarias: str
+
 -condiciones_familiares: str
+
 -peso: float
+
 -talla: float
 
 ##### Métodos:
 
 +get_alergias(): str
+
 +get_peso(): float
+
 +get_talla(): float
 
 #### Clase HistorialVacunas
@@ -224,6 +235,7 @@ Atributos:
 ##### Métodos:
 
 +agregar_vacuna(nombre: str, fecha: str): void (Agrega una nueva vacuna a la lista)
+
 +str(): str (Devuelve una representación en cadena del historial de vacunas)
 
 #### Clase Medicamento
@@ -237,10 +249,15 @@ Atributos:
 ##### Métodos:
 
 +agregar_medicamento(nombre: str, sintomas: List[str], dosis: str, nombre_archivo: str): void (Agrega un nuevo medicamento a la lista)
+
 +cargar_medicamentos_desde_archivo(nombre_archivo: str): void (Carga la lista de medicamentos desde un archivo binario)
+
 +buscar_y_mostrar_medicamentos(sintoma: str): List[Tuple[str, List[str], str]] (Busca y muestra medicamentos según el síntoma proporcionado)
+
 +eliminar_medicamento(nombre: str): void (Elimina un medicamento de la lista por su nombre)
+
 +mostrar_medicamentos(): void (Muestra la lista de medicamentos con sus nombres, síntomas y dosis)
+
 +mostrar_medicamento_nombre(): void (Muestra solo los nombres de los medicamentos)
 
 #### Clase Medico
@@ -250,16 +267,23 @@ Atributos:
 ##### Atributos:
 
 -nombre_medico: str
+
 -cedula_profesional: str
+
 -especialidades: List[str]
+
 -cedulas_especialidad: List[str]
 
 ##### Métodos:
 
 +get_nombre_medico(): str
+
 +get_cedula_profesional(): str
+
 +eliminar_medico(cedula: str): void (Elimina un médico de la lista por su cédula)
+
 +mostrar_medicos(): void (Muestra la lista de médicos con sus nombres, cédulas y especialidades)
+
 +mostrar_nombres_cedulas(): void (Muestra solo los nombres y cédulas de los médicos)
 
 #### Clase Clinica
