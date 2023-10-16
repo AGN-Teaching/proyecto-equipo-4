@@ -103,6 +103,7 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 
 ------------
 #### Clase Paciente
+![WhatsApp Image 2023-10-15 at 11 26 31 PM (1)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/cfb9beff-8032-4560-b9fa-e38657f286b5)
 
 ##### Atributos:
 
