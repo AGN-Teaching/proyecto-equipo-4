@@ -108,18 +108,29 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 ##### Atributos:
 
 -nombre: str
+
 -edad: int
+
 -fecha_nacimiento: str
+
 -genero: str
+
 -num_seguro_social: str
+
 -direccion: str
+
 -telefono: str
+
 -correo_electronico: str
+
 -contacto_emergencia: str
+
 ##### Métodos:
 
 +get_edad_paciente(): int
+
 +get_nombre_paciente(): str
+
 +get_genero(): str
 
 
@@ -130,16 +141,24 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 ##### Atributos:
 
 -paciente: Paciente
+
 -fecha: str
+
 -historial_medico: HistorialMedico
+
 -sintomas: List[str]
+
 -instrucciones: str
+
 -duracion: str
+
 -nombre_clinica: str
 ##### Métodos:
 
 +obtener_informacion_expediente(): Tuple[Optional[HistorialMedico], Optional[Paciente]] (Obtiene información del expediente médico del paciente)
+
 +buscar_y_mostrar_medicamentos(sintomas: List[str]): List[Tuple[str, List[str], str]] (Busca y muestra medicamentos según los síntomas proporcionados)
+
 +imprimir_receta_y_guardar(): void (Imprime y guarda la receta médica)
 
 #### Clase Especialidad
@@ -149,12 +168,17 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 ##### Atributos:
 
 -especialidades: List[Tuple[str, str]] (Lista de tuplas que contiene el nombre y descripción de cada especialidad médica)
+
 ##### Métodos:
 
 +agregar_especialidad(nombre: str, descripcion: str): void (Agrega una nueva especialidad a la lista)
+
 +mostrar_especialidades(): void (Muestra la lista de especialidades con sus nombres y descripciones)
+
 +borrar_especialidad(nombre: str): void (Elimina una especialidad de la lista por su nombre)
+
 +get_especialidad(nombre: str): Optional[Tuple[str, str]] (Devuelve la información de una especialidad por su nombre)
+
 +mostrar_especialidades_nombre(): void (Muestra solo los nombres de las especialidades)
 
 #### Clase Cirugia
@@ -164,14 +188,16 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 ##### Atributos:
 
 -nombre_cirugia: str
+
 -cirugias: List[Tuple[str, str]] (Lista de tuplas que contiene el nombre y los síntomas de cada cirugía)
 
 ##### Métodos:
 
 +cargar_cirugias_desde_archivo(nombre_archivo: str): void (Carga la lista de cirugías desde un archivo binario)
+
 +buscar_cirugia(sintomas_paciente: List[str]): Union[str, List[Tuple[str, str]]] (Busca cirugías según los síntomas proporcionados)
 
-#### Clase EstudioMedico
+#### Clase EstudioMedicos
 ![WhatsApp Image 2023-10-15 at 11 26 30 PM (2)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/49242ce0-dc9c-49ae-b2f3-1dd0544642fb)
 
 ##### Atributos:
@@ -181,7 +207,9 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 ##### Métodos:
 
 +cargar_estudios_desde_archivo(nombre_archivo: str): void (Carga la lista de estudios médicos desde un archivo binario)
+
 +buscar_estudio_medico(sintomas_paciente: List[str]): Union[str, List[Tuple[str, str]]] (Busca estudios médicos según los síntomas proporcionados)
+
 +buscar_y_mostrar_estudio_medico(sintoma: str): List[Tuple[str, str]] (Busca y muestra estudios médicos según el síntoma proporcionado)
 
 #### Clase ExpedienteClinico
