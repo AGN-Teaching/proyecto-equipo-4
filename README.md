@@ -124,6 +124,8 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 
 
 #### Clase Receta
+![WhatsApp Image 2023-10-15 at 11 26 30 PM (3)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/5b4c19dc-3e58-425e-a39f-cfed23cdb08e)
+
 
 ##### Atributos:
 
@@ -141,6 +143,8 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 +imprimir_receta_y_guardar(): void (Imprime y guarda la receta médica)
 
 #### Clase Especialidad
+![WhatsApp Image 2023-10-15 at 11 26 31 PM (6)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/f3f76290-135b-4f33-8b91-7cea663a9588)
+
 
 ##### Atributos:
 
@@ -154,6 +158,8 @@ La adopción de un Expediente Clínico Electrónico responde a la demanda espec�
 +mostrar_especialidades_nombre(): void (Muestra solo los nombres de las especialidades)
 
 #### Clase Cirugia
+![WhatsApp Image 2023-10-15 at 11 26 31 PM](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/ecc3ef37-52d9-4e2e-b862-3b2066ddfc6f)
+
 
 ##### Atributos:
 
@@ -177,6 +183,8 @@ Atributos:
 +buscar_y_mostrar_estudio_medico(sintoma: str): List[Tuple[str, str]] (Busca y muestra estudios médicos según el síntoma proporcionado)
 
 #### Clase ExpedienteClinico
+![WhatsApp Image 2023-10-15 at 11 26 31 PM (4)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/dbca2657-8ccf-4a6f-ae5f-0d31bbcc1ae1)
+
 
 ##### Atributos:
 
@@ -185,6 +193,8 @@ Atributos:
 +historial_medico: HistorialMedico
 
 #### Clase HistorialMedico
+![WhatsApp Image 2023-10-15 at 11 26 31 PM (2)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/55de4c2c-2e7c-4e68-9b61-a0a847199c0e)
+
 
 ##### Atributos:
 
@@ -203,6 +213,8 @@ Atributos:
 +get_talla(): float
 
 #### Clase HistorialVacunas
+![WhatsApp Image 2023-10-15 at 11 26 31 PM (5)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/ece9f5f5-ec0b-4ea1-9a75-38a815fab276)
+
 
 ##### Atributos:
 
@@ -215,6 +227,8 @@ Atributos:
 +str(): str (Devuelve una representación en cadena del historial de vacunas)
 
 #### Clase Medicamento
+![WhatsApp Image 2023-10-15 at 11 26 31 PM (7)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/24ae4079-6c7d-4fe8-b3f6-070c9b5f181a)
+
 
 ##### Atributos:
 
@@ -230,6 +244,8 @@ Atributos:
 +mostrar_medicamento_nombre(): void (Muestra solo los nombres de los medicamentos)
 
 #### Clase Medico
+![WhatsApp Image 2023-10-15 at 11 26 31 PM (3)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/eae65b1d-3130-4749-a8fb-39878172477b)
+
 
 ##### Atributos:
 
@@ -247,6 +263,8 @@ Atributos:
 +mostrar_nombres_cedulas(): void (Muestra solo los nombres y cédulas de los médicos)
 
 #### Clase Clinica
+![WhatsApp Image 2023-10-15 at 11 26 30 PM (1)](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/ef0d1172-31b0-4491-a3cf-3414a7d0d77f)
+
 
 ##### Atributos :
 
@@ -302,6 +320,8 @@ consultar_expediente_medico(): Consulta y muestra un expediente clínico desde e
  receta médica.
  
 ### Diagrama UML
+![WhatsApp Image 2023-10-15 at 11 26 30 PM](https://github.com/AGN-Teaching/proyecto-equipo-4/assets/141948152/751f17ad-fb9e-4dca-b733-95fe9d8d6087)
+
 
 
 ### Concluciones
